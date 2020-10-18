@@ -1,0 +1,27 @@
+{
+  "name": "apitesting",
+  "version": "1.0.0",
+  "description": "Cloud Cover second Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Dhiresh Mundada",
+  "license": "ISC",
+  "devDependencies": {
+    "frisby": "^2.1.3",
+    "jest": "^26.5.3",
+    "jest-html-reporter": "^3.3.0"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Cloud Cover - API Tests"
+        }
+      ]
+    ]
+  }
+}
