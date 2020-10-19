@@ -20,4 +20,4 @@ Execute the tests:
 
 ## View the test execution report:
 
-There would be "test-report.html" file generated. To view the report open in any browser.
+There would be "test-report.html" file generated after executing tests. To view the report open in any browser.
